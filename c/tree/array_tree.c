@@ -2,7 +2,6 @@
 #include<assert.h>
 #include<stdlib.h>
 #include<string.h>
-#define MAX_SIZE 100
 typedef struct ArrayTree
 {
     int*arr;

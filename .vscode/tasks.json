@@ -8,9 +8,9 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "-std=c99",
-                "*.c",
+                "${file}",
                 "-o",
-                "${fileDirname}\\a.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"
